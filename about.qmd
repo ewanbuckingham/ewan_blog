@@ -1,5 +1,5 @@
 ---
-title: "About Ewan"
+title: "About"
 image: media/profile.jpg
 about:
   template: jolla
@@ -18,9 +18,11 @@ about:
       href: mailto:ewan@ewanbuckingham.com
 ---
 
-# In work
+# At my desk
 
-I\'m a product manager working in the technology and learning sectors. I have a special interest in using data science to find new perspectives on the thorny problems at the heart of EdTech. I'm currently working on a range of innovation projects for [The Open University](http://www.open.ac.uk/) in the fields of:
+I'm a product manager working in the technology and learning sectors. I have a special interest in using data science to find new perspectives on the thorny problems at the heart of EdTech. Seeing things differently often leads to new ideas.
+
+I'm currently working for [The Open Universit](http://www.open.ac.uk/)y on a range of innovation projects spanning:
 
 -   Immersive collaboration environments
 
@@ -28,12 +30,14 @@ I\'m a product manager working in the technology and learning sectors. I have a 
 
 -   Learning behavioural insight
 
-I mostly work in the early to mid-market identifying new opportunities, evaluating them and using agile methods iteratively explore, test and grow them towards market-fit and introduction into business-as-usual.
+I mostly work in the early to mid-market identifying new opportunities, evaluating them and using agile methods to turn them into production-ready products and services.
 
-If you have an interest in these areas, it would be great to hear from you.
-
-# Outside of work
+# Away from it
 
 I live in Oxford, UK, and split my time between renovating my house, repairing my camper van and chasing around after my toddler. Back when I had free time I used rock-climb and mountaineer across Europe and North America. Now my knees are tending to prefer mountain biking and backcountry skiing.
 
-![Our border collie on the water meadows near home.](media/meg.jpeg){fig-alt="My border collie sitting in the sunshine on the species-rich water meadows that run through Oxford. She not usually this clean." width="489"}
+::: {layout-ncol="2"}
+![Climbing in North Wales](media/eb_climb.jpg){fig-alt="Rock climbing on the Idwal Slabs in North Wales." width="279"}
+
+![Our border collie on the water meadows near home.](media/meg.jpeg){fig-alt="My border collie sitting in the sunshine on the species-rich water meadows that run through Oxford. She not usually this clean." width="249"}
+:::

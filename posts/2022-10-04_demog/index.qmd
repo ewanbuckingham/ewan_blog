@@ -1,0 +1,33 @@
+---
+title: "Shifting users"
+author: "Ewan Buckingham"
+date: "2022-10-04"
+categories: [demographics, R, GIS]
+---
+One thing that's often not given enough attention in EdTech is just how uneven the demand for digital products and services can be. If people can access the internet they're assumed to be equally able to access, engage and benefit from our digital products. The reality is often very different.
+
+I'll take Scotland as an example although it's just as true of the UK as a whole, of Europe and of the US. You might reasonably expect Scotland to have some digital access-issues. It's population is concentrated in major cities in the South, with a large hinterland that is much more sparsely populated and geographically challenging. Digital access ought to be very good in the cities and lag progressively as distance and geographic challenges mount.
+
+The truth is actually very different. Geography and relative remoteness from major urban centres proves to be a very poor predictor for digital access.
+
+![Access to high speed broadband in Scotland based on SIMD 2020 from data.gov](scotland_broadband.png){width="355"}
+
+You can see that while Glasgow and Edinburgh seem to do well at a high level the picture for the rest of the country is much more disjointed. Remote areas with small populations such as the Isle of Lewis and Kyle of Lochalsh do well, while areas adjactent to the large cities of Scotland's east coast struggle despite their proximity and relatively unchallenging geography.
+
+Even this picture begins to break down as you look more closely. Glasgow is the largest city in Scotland and part of [Silicon Glen](https://en.wikipedia.org/wiki/Silicon_Glen "Silcon Glen definition, Wikipedia"), Scotland's high-tech sector. Some of the largest tech infrastructure investments in the country have happened here.
+
+::: column-margin
+Greater Glasgow and Clyde is 1m of Scotland's 5.4m population
+:::
+
+![Access to high speed internet in Glasgow is uneven, SIMD 2020](glasgow_broadband.png){alt="Access to high speed internet in Glasgow is uneven, SIMD 2020" fig-alt="Map showing that access to high speed internet in Glasgow is uneven. It is based on SIMD 2020 data" width="355"}
+
+You can see that the investments have resulted in uneven access with some areas some areas experiencing very good conditions while others adjacent to them have been left behind. The social and political drivers behind this pattern will be complex. This type of fractured access and inequality repeats itself at multiple scales in every dataset that I've looked at.
+
+If you're building EdTech products it's worth looking very closely at what the experience will be like for users when they consume them in their typical daily context. The experiences you see during an in-person focus group at your offices may not carry over into people's daily lives.
+
+Open source datasets can provide a helpful first step towards mapping the distribution of your current users against benchmark metrics. This will allow you to identify users in potential problem areas for deeper conversations.
+
+::: column-margin
+SIMD 2020 dataset can be downloaded from the scot.gov website [here](https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/). I'll detail the process for merging it with GIS datasets to create the distribution maps in a follow up post.
+:::

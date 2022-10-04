@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Ewan",
+    "title": "About",
     "section": "",
-    "text": "Outside of work\nI live in Oxford, UK, and split my time between renovating my house, repairing my camper van and chasing around after my toddler. Back when I had free time I used rock-climb and mountaineer across Europe and North America. Now my knees are tending to prefer mountain biking and backcountry skiing.\n\n\n\nOur border collie on the water meadows near home."
+    "text": "Away from it\nI live in Oxford, UK, and split my time between renovating my house, repairing my camper van and chasing around after my toddler. Back when I had free time I used rock-climb and mountaineer across Europe and North America. Now my knees are tending to prefer mountain biking and backcountry skiing.\n\n\n\n\n\n\nClimbing in North Wales\n\n\n\n\n\n\n\nOur border collie on the water meadows near home."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -23,8 +23,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ewan_blog",
+    "title": "Recent posts",
     "section": "",
-    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 3, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "demographics\n\n\nR\n\n\nGIS\n\n\n\n\n\n\n\n\n\n\n\nOct 4, 2022\n\n\nEwan Buckingham\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 3, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2022-10-04_demog/index.html",
+    "href": "posts/2022-10-04_demog/index.html",
+    "title": "Shifting users",
+    "section": "",
+    "text": "I’ll take Scotland as an example although it’s just as true of the UK as a whole, of Europe and of the US. You might reasonably expect Scotland to have some digital access-issues. It’s population is concentrated in major cities in the South, with a large hinterland that is much more sparsely populated and geographically challenging. Digital access ought to be very good in the cities and lag progressively as distance and geographic challenges mount.\nThe truth is actually very different. Geography and relative remoteness from major urban centres proves to be a very poor predictor for digital access.\n\n\n\nAccess to high speed broadband in Scotland based on SIMD 2020 from data.gov\n\n\nYou can see that while Glasgow and Edinburgh seem to do well at a high level the picture for the rest of the country is much more disjointed. Remote areas with small populations such as the Isle of Lewis and Kyle of Lochalsh do well, while areas adjactent to the large cities of Scotland’s east coast struggle despite their proximity and relatively unchallenging geography.\nEven this picture begins to break down as you look more closely. Glasgow is the largest city in Scotland and part of Silicon Glen, Scotland’s high-tech sector. Some of the largest tech infrastructure investments in the country have happened here.\n\n\nGreater Glasgow and Clyde is 1m of Scotland’s 5.4m population\n\n\n\nAccess to high speed internet in Glasgow is uneven, SIMD 2020\n\n\nYou can see that the investments have resulted in uneven access with some areas some areas experiencing very good conditions while others adjacent to them have been left behind. The social and political drivers behind this pattern will be complex. This type of fractured access and inequality repeats itself at multiple scales in every dataset that I’ve looked at.\nIf you’re building EdTech products it’s worth looking very closely at what the experience will be like for users when they consume them in their typical daily context. The experiences you see during an in-person focus group at your offices may not carry over into people’s daily lives.\nOpen source datasets can provide a helpful first step towards mapping the distribution of your current users against benchmark metrics. This will allow you to identify users in potential problem areas for deeper conversations.\n\n\n\n\n\nSIMD 2020 dataset can be downloaded from the scot.gov website here. I’ll detail the process for merging it with GIS datasets to create the distribution maps in a follow up post."
   }
 ]
